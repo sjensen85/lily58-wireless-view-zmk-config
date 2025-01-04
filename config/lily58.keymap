@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+&tog { toggle-mode = "on"; };
+
 / {
     keymap {
         compatible = "zmk,keymap";
