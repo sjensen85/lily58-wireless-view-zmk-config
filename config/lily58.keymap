@@ -9,6 +9,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        to_gaming {
+            bindings = <&to 3>;
+            key-positions = <24 57>;
+        };
+
+        to_default {
+            bindings = <&to 0>;
+            key-positions = <36 57>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
